@@ -1,0 +1,289 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Job Portfolio</title>
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="navigation.css">
+  <link rel="stylesheet" href="introduction.css">
+  <link rel="stylesheet" href="about-me.css">
+  <link rel="stylesheet" href="skills.css">
+  <link rel="stylesheet" href="character-reference.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  
+<main class="page">
+  <div>
+    <nav>
+
+      <div class="fixed-navbar" id="fixedNavbar">  
+        <div class="back-to-top" id="backToTopButton" onclick="scrollToTop()">
+        Home ⌂
+        </div>   
+        <div class="nav" onclick="scrollToDiv('.main2')">
+          About Me
+        </div>
+        <div class="nav" onclick="scrollToDiv('.main3')">
+          Skills
+        </div>
+        <div class="nav" onclick="scrollToDiv('.main4')">
+          Character Reference
+        </div>
+        <div class="nav" onclick="scrollToDiv('.main5')">
+          Contact
+        </div>
+      </div>
+      <nav class="navigation" id="originalNavbar">
+        <div class="nav" onclick="scrollToDiv('.main2')">
+          About Me
+        </div>
+        <div class="nav" onclick="scrollToDiv('.main3')">
+          Skills
+        </div>
+        <div class="nav" onclick="scrollToDiv('.main4')">
+          Character Reference
+        </div>
+        <div class="nav" onclick="scrollToDiv('.main5')">
+          Contact
+        </div>
+      </nav>
+      <div class="main1">
+        <div class="left1">
+          <div class="left-container">
+            <div class="hello">
+              Hello!
+            </div>
+            <div id="my-element" class="name">
+              I'm John Rovin
+            </div>
+            <div class="cpe">
+              Bachelor of Science in Computer Engineering
+            </div>
+            <button class="hire" onclick="scrollToDiv('.main2')">
+              HIRE ME
+            </button>
+          </div>
+        </div>
+  
+        <div class="right1">
+          this portion is still a work in progress as I continue to learn. The projects are not totally finished as well. I'm making everything from scratch with so little help with the internet so I can learn the logic.
+          <div id="myProjects" class="projects">
+            Projects
+          </div>
+          <a href="Calculator/index.html" target="_blank" class="calculator">
+            <button class="button-project"> Calculator </button> 
+          </a>
+          <a href="Youtube/index.html" target="_blank" class="calculator">
+            <button class="button-project"> Youtube </button> 
+          </a>
+        </div>
+      </div>
+
+    </nav>
+
+
+
+
+
+
+    <div class="main2">
+      <div class="main2-container">
+        <div class="left2">
+          <div id="abou-div"class="about-me">
+            <span  class="abou">Abou</span>t Me
+          </div>
+          <div class="objective">
+            My name is <span class="john"> JOHN ROVIN D. AMIDO</span>, born in March 30, 1998. <br><br> Graduate with a Bachelor's degree in Computer Engineering, currently pursuing Web Development with a good understanding of HTML, CSS, JavaScript, Java, Python, etc. Ability to work to complete projects on time and to meet clients' requirements. <br><br> I'm here to seize chances to put my knowledge to use and gain more experience on my profession. I will work hard to contribute for the company and assist my personal development.
+          </div>
+          <div class="downloadd">
+            <a href="Amido_Resume.pdf" download>
+              <button class="download">
+                Download CV
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div class="right2">
+          <div class="">
+            <div class="education">
+              Graduated From:
+            </div>
+            <a href="https://sscr.edu/Beta/" target="_blank">
+              <div class="baste">
+                San Sebastian College-Recoletos de Cavite
+              </div>
+            </a>
+            <div class="date">
+              2014-2022
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="main3">
+      <div>
+        <div class="upper3">
+          Skills
+        </div>
+      </div>
+      <div class="bottom3">
+        <div class="bottom3-container">
+          <div class="first">
+            <div class="icon-container">
+              <!-- <img class="icon" src="images/Webdesign (2).png" alt=""> -->
+            </div>
+            <div class="description1">
+              Web Development
+            </div>
+            <div class="description2">
+              Programming (HTML, CSS, JavaScript, Java, Python, etc.)
+            </div>
+          </div>
+          <div class="second">
+            Versatile
+          </div>
+          <div class="third">
+            Creativity
+          </div>
+          <div class="fourth">
+            Adaptability
+          </div>
+          <div class="fifth">
+            Problem Solving
+          </div >
+          <div class="sixth">
+            Design
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="main4">
+      <div class="upper4">
+        Character Reference
+      </div>
+      <div class="reference-container">
+        <div class="reference1">
+          <div class="info">
+            <div class="reference-info1">
+              <div>
+                Name:
+              </div>
+              <div class="answer">
+                Debie Anne B. Vasquez
+              </div>
+            </div>
+            <div class="reference-info1">
+              <div>
+                Phone #:
+              </div>
+              <div class="answer">
+                0955-567-0171
+              </div>
+            </div>
+            <div class="reference-info1">
+              <div>
+                Profession:
+              </div>
+              <div class="answer">
+                Application Development Associate
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reference2">
+          <div class="info">
+            <div class="reference-info2">
+              <div>
+                Name:
+              </div>
+              <div class="answer">
+                Jayvee Mariquina
+              </div>
+            </div>
+            <div class="reference-info2">
+              <div>
+                Phone #:
+              </div>
+              <div class="answer">
+                0921-927-2011
+              </div>
+            </div>
+            <div class="reference-info2">
+              <div>
+                Profession:
+              </div>
+              <div class="answer">
+                Custom Software Engineering Associate
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reference3">
+          <div class="info">
+            <div class="reference-info3">
+              <div>
+                Name:
+              </div>
+              <div class="answer">
+                Andriel M. Suarez
+              </div>
+            </div>
+            <div class="reference-info3">
+              <div>
+                Phone #:
+              </div>
+              <div class="answer">
+                0995-781-6472
+              </div>
+            </div>
+            <div class="reference-info3">
+              <div>
+                Profession:
+              </div>
+              <div class="answer">
+                Jr Software Engineer 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+    <footer class="main5">
+      <a class="email">
+        <span class="g"> @ </span> johnrovin6@gmail.com
+      </a>
+      <a class="facebook" href="https://www.facebook.com/John.Rovin.Amido/" target="_blank">
+        <span class="f"> f </span> : https://www.facebook.com/John.Rovin.Amido/
+      </a>
+      <a class="number">
+        <span class="phone"> ✆ </span> 0945-783-5591
+      </a>
+    </footer>
+  </div>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
